@@ -24,7 +24,7 @@ class HardCoreVideoGame implements PcVideoGame {
     }
 
     load(): void {
-        console.log('Can"t load')
+        throw new Error('Can"t load')
     }
 }
 
